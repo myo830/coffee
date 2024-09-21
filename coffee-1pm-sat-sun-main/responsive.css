@@ -1,0 +1,39 @@
+@media (max-width: 700px){
+    form{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    nav{
+        padding: 0 20px;
+    }
+    .nav-links{
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        width: 50%;
+        background: #000;
+        padding: 20px;
+        border-radius: 0 0 0 20px;
+        transform: scale(0);
+        transition: 0.6s;
+        transform-origin: top right;
+        /*display: none;*/
+    }
+    .show{
+        /*display: block;*/
+        transform: scale(1);
+    }
+    .nav-links a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        transition: 0.3s;
+      
+    }
+    .nav-links a:hover{
+        color: red;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    background: greenyellow;
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+}
+@media (min-width: 576px){
+    h1{
+        font-size: 1.5rem;
+        color: white;
+        background: #000;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        color: rgb(230, 31, 31);
+        background: #0ecd31;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+        color: rgb(196, 124, 17);
+        background: #cd0e0e;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+        color: rgb(196, 124, 17);
+        background: #cd0e0e;
+    }
+}
+

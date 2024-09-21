@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: brown;
+    background: #000;
+    font-size: 1rem;
+    padding: 20px;
+    margin: 20px auto;
+}
+@media (max-width: 992px){
+    h1{
+        font-size: 1.5rem;
+        color: white;
+        background: #d31515;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        color: rgb(255, 121, 25);
+        background: #9b0357;
+    }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+        color: rgb(84, 54, 202);
+        background: #03109b;
+    }
+}
